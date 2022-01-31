@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="FormInputText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/text_input_color</item>
+        <item name="android:background">@color/white_transparent</item>
+    </style>
+
+    <style name="FormInputHint" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textColor">@color/hint_color</item>
+    </style>
+
+    <style name="LargeTitle0" parent="TextAppearance.AppCompat.Large">
+        <item name="android:textSize">22sp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/black_00</item>
+    </style>
+
+    <style name="LargeTitle1" parent="TextAppearance.AppCompat.Large">
+        <item name="android:textSize">32sp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/black_00</item>
+    </style>
+
+    <style name="LargeTitle2" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">28sp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/black_00</item>
+    </style>
+
+    <style name="LargeTitle3" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/black_00</item>
+    </style>
+
+    <style name="Headline6" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/black_transparent_87</item>
+    </style>
+
+    <style name="Body1" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/neutral_70</item>
+    </style>
+
+    <style name="Body2" parent="TextAppearance.AppCompat.Body2">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textColor">@color/black_00</item>
+        <item name="android:gravity">start</item>
+    </style>
+
+    <style name="Body3" parent="TextAppearance.AppCompat.Subhead">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textColor">@color/neutral_main</item>
+    </style>
+
+    <style name="Body_comment" parent="TextAppearance.AppCompat.Body2">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textColor">@color/black_22</item>
+    </style>
+
+    <style name="Subhead3" parent="TextAppearance.AppCompat.Subhead">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textColor">@color/neutral_50</item>
+    </style>
+
+    <style name="SubTitle2" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textColor">@color/neutral_main</item>
+    </style>
+
+    <style name="Caption1" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/neutral_70</item>
+    </style>
+
+    <style name="Value" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textColor">@color/black_22</item>
+    </style>
+
+    <style name="Emphasis" parent="TextAppearance.AppCompat.Subhead">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/black_transparent_60</item>
+    </style>
+
+    <style name="Main_Button" parent="TextAppearance.AppCompat.Subhead">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/black_22</item>
+    </style>
+
+    <style name="ContentTitle" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/black_transparent_87</item>
+    </style>
+
+    <style name="InputValue" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textColor">@color/black_22</item>
+    </style>
+
+    <style name="TextNotActive" parent="TextAppearance.AppCompat.Subhead">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textColor">@color/hint_color</item>
+    </style>
+
+    <style name="CustomRadioButtonStyle" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/radio_button</item>
+        <item name="android:textAppearance">@style/InputValue</item>
+        <item name="android:colorControlNormal">@color/blue_normal</item>
+        <item name="android:colorControlActivated">@color/blue_normal</item>
+        <item name="android:colorAccent">@color/blue_normal</item>
+        <item name="android:buttonTint">@color/blue_normal</item>
+    </style>
+
+    <style name="CustomCheckBoxStyle" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox</item>
+        <item name="android:textAppearance">@style/InputValue</item>
+        <item name="android:colorAccent">@color/blue_normal</item>
+        <item name="android:buttonTint">@color/blue_normal</item>
+
+    </style>
+
+    <!-- Blue Button -->
+    <style name="AppButton" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:backgroundTint">@color/button_background_color</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="cornerRadius">@dimen/btn_radius</item>
+        <item name="rippleColor">@color/button_ripple</item>
+    </style>
+
+    <!-- White Button -->
+    <style name="AppWhiteButton" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:backgroundTint">@color/button_white_background_color</item>
+        <item name="android:textColor">@color/blue_normal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="rippleColor">@color/button_ripple</item>
+    </style>
+
+    <style name="AppTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/neutral_90</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+    <style name="AppTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabMaxWidth">0dp</item>
+        <item name="tabIndicatorColor">@color/primary_70</item>
+        <item name="tabIndicatorHeight">2dp</item>
+        <item name="tabPaddingStart">6dp</item>
+        <item name="tabPaddingEnd">6dp</item>
+        <item name="tabIndicatorFullWidth">true</item>
+        <item name="tabGravity">fill</item>
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabTextAppearance">@style/AppTabTextAppearance</item>
+        <item name="tabSelectedTextColor">@color/neutral_90</item>
+    </style>
+
+    <style name="SpinnerItem" parent="android:Widget.TextView.SpinnerItem">
+        <item name="android:textColor">@color/black_22</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:gravity">top|left</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingRight">18dp</item>
+        <item name="backgroundTint">@color/neutral_main</item>
+    </style>
+
+    <style name="SpinnerDropDownItemStyle" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+
+    </style>
+
+    <style name="SpinnerStyle" parent="Widget.AppCompat.Spinner.Underlined">
+        <item name="backgroundTint">@color/neutral_main</item>
+        <item name="android:background">@drawable/spinner_background</item>
+    </style>
+<!--
+    <style name="spinnerTheme" parent= "Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu">
+        <item name="strokeColor">@color/neutral_main</item>
+    </style> -->
+
+</resources>

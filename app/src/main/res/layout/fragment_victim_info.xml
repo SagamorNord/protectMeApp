@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_watch1"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="17dp"
+                android:src="@drawable/ic_watch"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_company_profile" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_phone"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="20dp"
+                android:visibility="gone"
+                android:src="@drawable/ic_phone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iv_watch1"
+                tools:visibility="visible" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_email"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="20dp"
+                android:visibility="gone"
+                android:src="@drawable/ic_email"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iv_phone"
+                tools:visibility="visible" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_point"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/ic_marker"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iv_email" />
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginStart="44dp"
+                android:layout_marginEnd="44dp"
+                android:background="@color/white_transparent"
+                android:visibility="invisible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_status_info"
+                tools:visibility="visible" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_company_profile"
+                style="@style/Value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="17dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Профиль компании"
+                tools:visibility="visible" />
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_delivery_window"
+                style="@style/Value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:ellipsize="end"
+                android:maxWidth="400dp"
+                android:singleLine="true"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/iv_watch1"
+                app:layout_constraintBottom_toBottomOf="@+id/iv_watch1"
+                tools:text="10:00-13:00" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_phone1"
+                style="@style/Value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_marginBottom="2dp"
+                android:textColor="@color/blue_normal"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/iv_phone"
+                app:layout_constraintBottom_toBottomOf="@+id/iv_phone"
+                tools:text="+7 999 999-99-99"
+                tools:visibility="visible" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_phone2"
+                style="@style/Value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginBottom="2dp"
+                android:textColor="@color/blue_normal"
+                android:visibility="gone"
+                app:layout_constraintStart_toEndOf="@+id/tv_phone1"
+                app:layout_constraintTop_toTopOf="@+id/iv_phone"
+                app:layout_constraintBottom_toBottomOf="@+id/iv_phone"
+                tools:text="+7 999 999-99-99"
+                tools:visibility="visible" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_email"
+                style="@style/Value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_marginBottom="2dp"
+                android:textColor="@color/blue_normal"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/iv_email"
+                app:layout_constraintBottom_toBottomOf="@+id/iv_email"
+                tools:text="mail@yandex.ru"
+                tools:visibility="visible" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_company_address"
+                style="@style/Value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="0dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_email"
+                tools:text="Краснопресненская набережная, 21 5345 34663 636" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_address_comment"
+                style="@style/Subhead3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/neutral_50"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/tv_status_info"
+                app:layout_constraintTop_toBottomOf="@+id/tv_company_address"
+                tools:text="Дополнительная информация по адресу" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_transport_cap"
+                style="@style/Subhead3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="18dp"
+                android:text="@string/transport_caption"
+                android:textColor="@color/neutral_main"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ll_contact_persons" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_transport"
+                style="@style/Body2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="8dp"
+                android:ellipsize="end"
+                android:maxWidth="400dp"
+                android:singleLine="true"
+                app:layout_constraintStart_toStartOf="@+id/tv_transport_cap"
+                app:layout_constraintTop_toBottomOf="@+id/tv_transport_cap"
+                tools:text="Общественный транспорт" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_salary_bank_cap"
+                style="@style/Subhead3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="22dp"
+                android:text="@string/salary_bank_caption"
+                android:textColor="@color/neutral_main"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/tv_transport_cap"
+                app:layout_constraintTop_toBottomOf="@+id/tv_transport" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_salary_bank"
+                style="@style/Body2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="8dp"
+                android:ellipsize="end"
+                android:maxWidth="400dp"
+                android:singleLine="true"
+                app:layout_constraintStart_toStartOf="@+id/tv_transport_cap"
+                app:layout_constraintTop_toBottomOf="@+id/tv_salary_bank_cap"
+                tools:text="Название банка" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_attendees_cap"
+                style="@style/Subhead3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="22dp"
+                android:text="@string/attendees_caption"
+                android:textColor="@color/neutral_main"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/tv_transport_cap"
+                app:layout_constraintTop_toBottomOf="@+id/tv_salary_bank" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_cards_cap"
+                style="@style/Subhead3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="72dp"
+                android:layout_marginTop="22dp"
+                android:text="@string/cards_caption"
+                android:textColor="@color/neutral_main"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/tv_attendees_cap"
+                app:layout_constraintTop_toBottomOf="@+id/tv_salary_bank" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_attendees"
+                style="@style/Body2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintStart_toStartOf="@+id/tv_transport_cap"
+                app:layout_constraintTop_toBottomOf="@+id/tv_attendees_cap"
+                tools:text="123" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_cards"
+                style="@style/Body2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintStart_toStartOf="@+id/tv_cards_cap"
+                app:layout_constraintTop_toBottomOf="@+id/tv_attendees_cap"
+                tools:text="12345" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_mpkp_cap"
+                style="@style/Subhead3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="22dp"
+                android:text="@string/mpkp_comment_caption"
+                android:textColor="@color/neutral_main"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/tv_transport_cap"
+                app:layout_constraintTop_toBottomOf="@+id/tv_attendees" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_mpkp_comment"
+                style="@style/Body2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintStart_toStartOf="@+id/tv_transport_cap"
+                app:layout_constraintTop_toBottomOf="@+id/tv_mpkp_cap"
+                tools:text="Комментарий" />
+
+            <View
+                android:id="@+id/divider1"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="44dp"
+                android:background="@color/neutral_main"
+                android:visibility="invisible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_address_comment"
+                tools:visibility="visible" />
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/ll_contact_persons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="invisible"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/divider1"
+                tools:visibility="visible" />
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/ll_report"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_dispatcher" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue_normal">#3A83F1</color>
+    <color name="button_ripple">#84B4FD</color>
+    <color name="button_ripple_transparent">#1184B4FD</color>
+
+    <color name="white_android">#fafafa</color>
+    <color name="gainsboro">#dddddd</color>
+    <color name="silver">#bebebe</color>
+    <color name="manatee">#969696</color>
+    <color name="gray">#727272</color>
+    <color name="charcoal">#3c3c3c</color>
+    <color name="charcoal_60">#993c3c3c</color>
+    <color name="gray_disabled">#E5E5E5</color>
+
+    <color name="black_00">#000000</color>
+    <color name="black_22">#222222</color>
+    <color name="black_21">#21242C</color>
+    <color name="black_transparent_87">#DE000000</color>
+    <color name="black_transparent_60">#99000000</color>
+    <color name="black_transparent_53">#88000000</color>
+    <color name="black_transparent_32">#52000000</color>
+    <color name="black_transparent_16">#26000000</color>
+    <color name="black_transparent_8">#13000000</color>
+    <color name="black_transparent_4">#07000000</color>
+    <color name="silver_transparent">#88bebebe</color>
+    <color name="white_transparent">#00FFFFFF</color>
+    <color name="neutral_90">#22242A</color>
+    <color name="neutral_70">#505258</color>
+    <color name="neutral_50">#7B7E86</color>
+    <color name="neutral_05">#F3F4F6</color>
+    <color name="neutral_main">#999EA9</color>
+    <color name="neutral_surface_one">#F3F4F7</color>
+    <color name="switch_off">#d9d9d9</color>
+
+    <color name="icon_background">#EDF5FF</color>
+    <color name="primary_20">#D6E4FE</color>
+    <color name="primary_60">#0062FF</color>
+    <color name="primary_70">#0142D3</color>
+
+    <color name="hint_color">#99A0AB</color>
+    <color name="text_input_color">#21242C</color>
+    <color name="red_70">#D62F26</color>
+    <color name="surface_overlay">#4F212121</color>
+</resources>
